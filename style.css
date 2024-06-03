@@ -1,0 +1,78 @@
+.menu {
+margin: 0;
+padding:0;
+list-style:none;
+font-family: cursive;
+}
+.menu li {
+display: inline-block;
+}
+.menu a.active {
+color:#00FF7F;
+}
+.menu a {
+text-decoration: none;
+display:block;
+color: #9400D3;
+FONT-SIZE: 24px;
+padding: 20px;
+}
+.menu a:hover {
+color: #7B68EE;
+}
+.header {
+display: flex;
+align-items: center;
+gap: 150px;
+}
+
+.wrapper {
+background: url(img/light.jpg);
+background-size: cover;
+min-height:100vh;
+}
+
+body {
+	margin: 0;
+}
+.faktu {
+	margin: 5px;
+	font-size: 25px;
+}
+.chay {
+	float: right;
+}
+.molochnuy {
+	text-align: right;
+	color: gray;
+}
+.chai {
+	display: flex;
+	gap: 60px;
+	margin-bottom:50px;
+	font-size: 24px
+}
+.black {
+	width: 515px;
+}
+.green {
+	width: 515px;
+}
+
+.gren {
+	color: green;
+}
+
+.black_chay {
+	width: 415px;
+	float: right ;
+}
+.text {
+font-size: 30px;
+}	
+.fl {
+	color: #C71585;
+}
+	.red {
+		color: #F08080;
+	}
